@@ -140,3 +140,67 @@ a{
     margin-left: 16px;
 }
 /* ---------------------------banner section end here--------------- */
+
+/* ---------------------------work section start here---------------- */
+#work{
+    padding: 128px 0;
+    background: #F4F6FC;
+}
+.work_wrapper{
+    display: flex;
+    column-gap: 142px;
+}
+.work_text h2{
+    color: #282938;
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+    text-transform: capitalize;
+}
+.pera_2{
+    width: 405px;
+    color: #282938;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    padding: 16px 0;
+}
+.text_2{
+    color: #2405F2;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    text-transform: capitalize;
+}
+.text_2 i{
+    color: #2405F2;
+    margin-left: 16px;
+}
+.work_item{
+    width: 656px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    column-gap: 25px;
+    row-gap: 57px;
+}
+.work_item h3{
+    color: #282938;
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 48px;
+    text-transform: capitalize;
+}
+.pera_3{
+    width: 303px;
+    color: #282938;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+/* ---------------------------work section end here---------------- */
