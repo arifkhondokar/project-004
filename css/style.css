@@ -342,3 +342,60 @@ a{
     margin-left: 16px;
 }
 /* ---------------------------project section end here--------------- */
+
+/* ---------------------------product section start here-------------- */
+#product{
+    padding: 128px 0;
+    background: #F4F6FC;
+}
+.product_headding h5{
+    color: #282938;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    margin: 0 auto;
+    text-transform: capitalize;
+}
+.product_headding h2{
+    width: 630px;
+    color: #282938;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+    margin: 0 auto;
+    padding: 12px 0 47px 0;
+}
+.product_service{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    column-gap: 32px;
+    row-gap: 24px;
+}
+.product_service--item{
+    width: 405px;
+    height: 316px;
+    background: #FFF;
+    padding: 58px 32px 48px 48px;
+}
+.product_service--item h3{
+    color: #282938;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    text-transform: capitalize;
+    margin: 23px 0 12px 0;
+}
+.product_service--item p{
+    color: #282938;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px; 
+}
+/* ---------------------------product section end here-------------- */
