@@ -540,3 +540,118 @@ a{
 }
 /* ---------------------------questions section end here-------------- */
 
+/* ---------------------------startup section start here-------------- */
+.startup_wrapper{
+    display: flex;
+}
+.startup_left{
+    width: 656px;
+    height: 691px;
+    overflow: hidden;
+    position: relative;
+}
+.startup_left picture{
+    width: inherit;
+    height: inherit;
+}
+.startup_left img{
+    width: 100%;   
+    height: 100%; 
+    object-fit: cover;
+    display: block;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(28, 30, 83, 0.50);
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+.startup_left h2{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 74px; 
+    padding: 96px 96px 24px 96px ;
+}
+.startup_left p{
+    width: 464px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-left: 96px;
+}
+.startup_right{
+    width: 624px;
+    height: 691px;
+    background: #1C1E53;
+    padding: 96px 96px 48px 96px;
+}
+.startup_right h4{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 48px; 
+    padding-bottom: 16px;
+}
+.startup_right p{
+    color: #F4F6FC;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    padding-bottom: 40px;
+}
+.startup_right form input{
+    width: 100%;
+    height: 64px;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    border: 1.5px solid rgba(255, 255, 255, 0.05);
+    background: transparent;
+    color: #F4F6FC;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    padding: 18px 32px;
+}
+.startup_right form button{
+    display: flex;
+    width: 432px;
+    height: 64px;
+    padding: 15px 51px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 41px;
+    background: #FCD980;
+    margin-top: 23px;
+}
+.startup_right form button a{
+    color: #1B1C2B;
+    font-family: Manrope;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 32px;
+}
+.startup_right .text_6{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    margin-top: 28px;
+    display: block;
+    text-align: center;
+}
+.text_6 i{
+    color: #FFF;
+    margin-left: 16px;
+}
+/* ---------------------------startup section end here-------------- */
