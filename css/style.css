@@ -204,3 +204,141 @@ a{
     line-height: 28px;
 }
 /* ---------------------------work section end here---------------- */
+
+/* ---------------------------project section start here--------------- */
+#project{
+    padding: 128px 0;
+    background: #Fff;
+}
+.project_top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.project_top h2{
+    color: #282938;
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+    text-transform: capitalize;
+}
+.project_top .text_1{
+    color: #1B1C2B;
+}
+.project_top .text_1 i{
+    color: #1B1C2B;
+}
+.project_main{
+    margin-top: 64px;
+    display: flex;
+    column-gap: 32px;
+}
+.project_left{
+    width: 843px;
+    height: 600px;
+    overflow: hidden;
+    position: relative;
+}
+.project_left img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.project_left .overlay{
+    width: 396px;
+    height: 600px;
+    position: absolute;
+    left: -396px;
+    top: 0;
+    z-index: 55;
+    transition: all linear 0.3s;
+    background: linear-gradient(329deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+}
+.project_left:hover .overlay{
+    left: 0;
+}
+.project_left .overlay h2{
+    width: 313px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    margin-left: 48px;
+    margin-top: 312px;
+    text-transform: capitalize;
+}
+.overlay .pera_4{
+    width: 293px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    margin: 16px 0 40px 48px;
+}
+.overlay .text_4{
+    color: #FCD980;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-left: 48px;
+}
+.overlay .text_4 i{
+    margin-left: 16px;
+}
+.project_right{
+    width: 405px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+.img_box{
+    width: 100%;
+    height: 284px;
+    overflow: hidden;
+    position: relative;
+}
+.img_box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.img_box .overlay{
+    width: 405px;
+    height: 284px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    z-index: 55;
+    transition: all linear 0.3s;
+    background: linear-gradient(329deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+}
+.img_box:hover .overlay{
+    opacity: 1;
+}
+.img_box .overlay h2{
+    width: 313px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    text-transform: capitalize;
+    margin: 129px 36px 10px 56px;
+}
+.overlay .text_5{
+    color: #FCD980;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-left: 56px;
+}
+.text_5 i{
+    margin-left: 16px;
+}
+/* ---------------------------project section end here--------------- */
