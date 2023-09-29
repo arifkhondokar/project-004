@@ -1,0 +1,142 @@
+/* ---------------------------common item start here--------------- */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul,ol{
+    list-style-type: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    line-height: 0.8;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1280px;
+    margin: 0 auto;
+}
+/* ---------------------------common item end here--------------- */
+
+/* ---------------------------navbar start here--------------- */
+#navbar{
+    background-color: #2D2F68;
+}
+.navbar__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar__logo{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.navbar__logo--img i{
+    color: #FFFFFF;
+}
+.navbar__menu{
+    display: flex;
+    align-items: center;
+    column-gap: 48px;
+}
+.navbar__menu_list{
+    display: flex;
+    align-items: center;
+    column-gap: 32px;
+}
+.navbar__menu_list--item{
+    color: #BBBBCB;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    text-transform: capitalize;
+    transition: all linear 0.3s;
+}
+.navbar__menu_list--item:hover{
+    color: #fff;
+}
+.common__btn{
+    margin: 16px 0;
+    padding: 16px 48px;
+    border-radius: 40px;
+    border: 2px solid rgba(244, 246, 252, 0.20);
+    background: #2D2F68;
+    text-transform: capitalize;
+    transition: all linear 0.3s;
+}
+.common__btn:hover{
+    background: #FCD980;
+}
+.navbar__btn--text{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    text-transform: capitalize;
+}
+.common__btn:hover 
+.navbar__btn--text {
+    color:#1B1C2B;
+}
+/* ---------------------------navbar end here--------------- */
+
+/* ---------------------------banner section start here--------------- */
+#banner{
+    padding: 127px 0;
+    background: #2D2F68;
+}
+.banner_wrapper{
+    display: flex;
+    align-items: center;
+    column-gap: 60px;
+
+}
+.banner_text h1{
+    width: 582px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 74px;
+    text-transform: capitalize;
+}
+.banner_text .pera_1{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 24px 0 48px 0;
+    line-height: 28px;
+}
+.banner_btn{
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+}
+.banner__btn--text{
+    color: #fff;
+    font-family: Manrope;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 32px;
+}
+.common__btn:hover 
+.banner__btn--text{
+    color: #1B1C2B;
+}    
+.text_1{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+}
+.text_1 i{
+    color: #FFF;
+    margin-left: 16px;
+}
+/* ---------------------------banner section end here--------------- */
