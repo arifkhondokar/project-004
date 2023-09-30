@@ -799,7 +799,33 @@ a{
 /* ---------------------------footer section end here-------------- */
 
 /* ---------------------------footer_link section start here-------------- */
-
+#footer_link{
+    background: #fff;
+    padding: 32px 0;
+}
+.footer_link--item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.link_email a{
+    color: #282938;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+}
+.link_blog ul{
+    display: flex;
+    column-gap: 32px;
+}
+.link_blog ul li a {
+    color: #282938;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+}
 /* ---------------------------footer_link section end here-------------- */
 
 
